@@ -9,7 +9,7 @@ import os
 # You can also set this as an environment variable in your Streamlit deployment environment.
 ORCHESTRATOR_CF_URL = os.environ.get(
     "ORCHESTRATOR_CF_URL",
-    "https://us-central1-wf-hack25dfw-647.cloudfunctions.net/orchestrator_v2"
+    "https://us-central1-wf-hack25dfw-647.cloudfunctions.net/orchestrator"
 )
 
 # --- Streamlit UI Setup ---
